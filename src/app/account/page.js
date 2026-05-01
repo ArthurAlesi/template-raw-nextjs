@@ -1,3 +1,5 @@
+import styles from "./page.module.css";
+
 export default function Account() {
-  return <div>page account</div>;
+  return <div className={styles.account}>account</div>;
 }

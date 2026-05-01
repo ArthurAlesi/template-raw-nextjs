@@ -1,3 +1,5 @@
-export default function User() {
-  return <div>page user</div>;
+import styles from "./page.module.css";
+
+export default function Users() {
+  return <div className={styles.users}>users</div>;
 }
